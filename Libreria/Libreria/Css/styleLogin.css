@@ -1,0 +1,190 @@
+﻿/*CLEAR FIX*/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/* GENERALES*/
+h1 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding:0;
+
+}
+section.programa {
+    position: relative;
+}
+div.contenedor-img {
+    background-image: url(../Imagenes/Fondo/Fondo1.jpg);
+    height: 100vh;
+    background-position:top center;
+    background-size:cover;
+}
+div.contenido-programa{
+    position:absolute;
+    top: 40%;
+    left:55%;
+    height:0;
+    width:100%;
+}
+div.programa-evento{
+    background-color:rgba(255, 255, 255, .1);
+    padding: 15px;
+    margin-top:80px;
+    width: 21%;
+}
+nav.menu-programa{
+    width: 99%;
+    display: table;
+    margin-bottom: 10px;
+
+}
+nav.menu-programa a {
+    display: table-cell;
+    font-size: 1.2em;
+    color: #f2f2f2;
+    text-decoration: none;
+    margin-right: 0;
+    position: relative;
+    padding-bottom: 10px; /*borrar y llevarla a programa*/
+    border-bottom: 1px solid #a18d6c;
+}
+nav.menu-programa a:hover {
+    color: #a18d6c;
+}
+nav.menu-programa a.activo {
+    color: #a18d6c;
+}
+
+.ocultar{
+    display:none;
+}
+
+/*login {
+    top: calc(50% - 75px);
+    left: calc(50% - 50px);
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+    z-index: 2;
+}*/
+
+.login input[type=text] {
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+}
+
+
+.login input[type=password] {
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.login input[type=email] {
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+
+.Boton {
+    width: 260px;
+    height: 35px;
+    background: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #a18d6c;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+    /* Es para el borde de la sección de abajo*/
+
+}
+Label.danger {
+    color: #ff0000;
+}
+#lblmensaje{
+    color: #f00;
+}
+
+
+.login button[type=button]:hover {
+    opacity: 0.8;
+}
+
+.login button[type=button]:active {
+    opacity: 0.6;
+}
+
+.login input[type=text]:focus {
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus {
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
+.login input[type=email]:focus {
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login button[type=button]:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder {
+    color: rgba(255,255,255,0.6);
+}
+

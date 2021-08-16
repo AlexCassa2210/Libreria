@@ -1,0 +1,277 @@
+﻿/*CLEAR FIX*/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* GENERALES*/
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+h1 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.9rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+.boton {
+    background-color: #a18d6c;
+    padding: 10px 40px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all .3s ease;
+    border: 2px solid #686666;
+}
+
+.boton:hover {
+    background-color: #a1742a;
+    transition: all .3s ease;
+    border: 2px solid #a18d6c;
+}
+
+/* UTILIDADES*/
+nav.redes-sociales {
+    text-align: center;
+}
+
+    nav.redes-sociales a {
+        color: #ffffff;
+        font-size: 2em;
+        margin-right: 20px;
+    }
+
+        nav.redes-sociales a:last-of-type {
+            margin-right: 0;
+        }
+    /* NAVBAR */
+ div.barra {
+    background-color: #353535;
+    padding: 15px 0;
+}
+
+div.logo {
+    width: 70%;
+}
+
+div.logo img {
+    width: 33%;
+    float: left;
+}
+
+/* Nav Principal */
+div.contenedor-nav {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav.navegacion-principal {
+    width: 75%;
+    float: right;
+    text-align: right;
+    display: block;
+    padding-top: 20px;
+}
+
+nav.navegacion-principal a {
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .6s ease;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav.navegacion-principal a {
+    margin-right: 10px;
+    padding: 10px 10px;
+    display: inline-block;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px 0 0;
+    border-radius: 4px;
+}
+
+
+nav.navegacion-principal a:hover {
+    background-color: #a18d6c;
+}
+
+nav.navegacion-principal a:last-child {
+    border: 2px solid #a18d6c;
+    color: #a18d6c;
+}
+
+nav.navegacion-principal a:last-child:hover {
+    color: #ffffff;
+}
+
+
+
+/** Utilidades **/
+.centrar-texto {
+    text-align: center;
+}
+
+.no-margin {
+    margin: 0;
+}
+/* GRID */
+@media (min-width: 768px) {
+    .grid {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .centrar-columnas {
+        justify-content: center;
+    }
+
+    .columnas-4 {
+        flex: 0 0 calc(33.3% - 1rem);
+    }
+
+    .columnas-6 {
+        flex: 0 0 calc(50% - 1rem);
+    }
+
+    .columnas-8 {
+        flex: 0 0 calc(66.6% - 1rem);
+    }
+
+    .columnas-10 {
+        flex: 0 0 calc(83.3% - 1rem);
+    }
+
+    .columnas-12 {
+        flex: 0 0 100%;
+    }
+}
+/** CONTACTO **/
+.formulario-contacto {
+    background-color: #ffffff;
+    padding: 5rem;
+    margin-top: -10rem;
+}
+
+
+.formulario-contacto .campo {
+    display: grid;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+}
+.formulario-contacto .campo label {
+    flex: 0 0 8rem;
+}
+
+.formulario-contacto .campo input:not([type="submit"]),
+.formulario-contacto textarea {
+    flex: 1;
+    border: 1px solid #353535;
+    padding: 7px;
+    width: 1000px;
+}
+.formulario-contacto .campo input:not([type="submit"]):hover {
+    border: 1px solid #a18d6c;
+}
+
+.formulario-contacto .campo1 input:not([type="submit"]) {
+    width: 200px;
+}
+.formulario-contacto .textbox {
+    height: 10rem;
+}
+
+.formulario-contacto .enviar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+/*FOOTER*/
+footer {
+    background-color: #353535;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+
+footer .contenedor > div {
+    color: #ffffff;
+    padding: 0px 20px;
+    font-size: 12px;
+    width: 45%;
+    float: left;
+}
+
+footer h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+
+footer h3 {
+    color: #a18d6c;
+}
+
+footer .ultimos-noticias li {
+    margin-bottom: 10px;
+}
+
+footer nav.redes-sociales {
+    text-align: left;
+}
+
+p.copyright {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    padding: 10px 0;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+
+
+

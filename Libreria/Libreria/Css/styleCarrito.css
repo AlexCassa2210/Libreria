@@ -1,0 +1,158 @@
+﻿
+
+.labell {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em
+}
+
+.card-text {
+    font-size: 1em;
+}
+
+.desc {
+    text-align: start;
+}
+/* NAVBAR */
+div.barra {
+    background-color: #353535;
+    padding: 15px 0;
+}
+
+div.logo {
+    width: 70%;
+}
+
+div.logo img {
+    width: 33%;
+    float: left;
+}
+
+/* Nav Principal */
+div.contenedor-nav {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav.navegacion-principal {
+    width: 75%;
+    float: right;
+    text-align: right;
+    display: block;
+    padding-top: 20px;
+}
+
+nav.navegacion-principal a {
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .6s ease;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav.navegacion-principal a {
+    margin-right: 10px;
+    padding: 10px 10px;
+    display: inline-block;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px 0 0;
+    border-radius: 4px;
+}
+
+
+nav.navegacion-principal a:hover {
+    background-color: #a18d6c;
+}
+
+nav.navegacion-principal a:last-child {
+    border: 2px solid #a18d6c;
+    color: #a18d6c;
+}
+
+nav.navegacion-principal a:last-child:hover {
+    color: #ffffff;
+}
+i {
+    color: #a18d6c;
+    font-size: 2em;
+}
+
+/* CENTRO*/
+
+.bg-primary {
+    background-color: #353535 !important;
+}
+.card{
+    margin-bottom:50px!important;
+    border:1px solid #a18d6c!important;
+}
+.card-title {
+    border: 1px solid #a18d6c!important;
+    border-radius:5px;
+}
+.border {
+    border: 1px solid #a18d6c!important;
+    padding-left:5px;
+}
+.modificar {
+    color: #a18d6c;
+    font-size: 1.1em;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*Lettering*/
+.char1{
+    color:#a18d6c!important;
+    font-size:1.1em;
+}
+.char2, .char3{
+    font-size:1.1em
+}
+
+/*FOOTER*/
+footer {
+    background-color: #353535;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+
+footer .contenedor > div {
+    color: #ffffff;
+    padding: 0px 20px;
+    font-size: 12px;
+    width: 45%;
+    float: left;
+}
+
+footer h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+
+footer h3 {
+    color: #a18d6c;
+}
+
+footer .ultimos-noticias li {
+    margin-bottom: 10px;
+}
+
+footer nav.redes-sociales {
+    text-align: left;
+}
+p.copyright {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    padding: 10px 0;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
